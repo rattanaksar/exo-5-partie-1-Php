@@ -1,3 +1,7 @@
+<?php
+        $a= 4567;
+        $a=789;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,10 +12,8 @@
 </head>
 <body>
     <h1>Exo 5 Partie : Les variables PHP</h1>
-    <?php
-        $a= 4567;
-        $a=789;
-        echo $a;
-    ?>
+    <p>
+    <?=$a;?>
+    </p>
 </body>
 </html>
