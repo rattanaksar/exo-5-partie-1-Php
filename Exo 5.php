@@ -1,6 +1,5 @@
 <?php
-        $a= 4567;
-        $a=789;
+        $a= 0;
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -12,8 +11,10 @@
 </head>
 <body>
     <h1>Exo 5 Partie : Les variables PHP</h1>
-    <p>
-    <?=$a;?>
-    </p>
+    <h2>Créer une variable de type int. L'initialiser avec rien. Afficher sa valeur.Donner une valeur à cette variable et l'afficher.</h2>
+    <p><?=$a;?></p>
+    <?php
+    $a=789;
+    ?><p><?= $a ?></p>
 </body>
 </html>
